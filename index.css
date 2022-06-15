@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  margin-top: 2rem;
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px 15px rgb(0, 66, 107);
+}
+#bmi {
+  margin-top: 2rem;
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px 15px rgb(0, 66, 107);
+}
+#community {
+  box-shadow: 1px 1px 15px rgb(0, 66, 107);
+}
+
+#helpline {
+  box-shadow: 1px 1px 15px rgb(0, 66, 107);
+}
+
+.title-head {
+  text-align: center;
+  font-family: Arial Narrow, sans-serif;
+  margin-bottom: 2rem;
+}
+.title-descript {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.genderConfig {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.ageHeightWeight {
+  display: flex;
+  width: 100%;
+  margin-inline: auto;
+  margin-bottom: 2rem;
+}
+form {
+  margin: auto;
+}
+
+#leftSide {
+  width: 100%;
+  justify-content: flex-start;
+  display: flex;
+  margin-inline: auto;
+}
+.age {
+  padding: 10px;
+}
+.weight {
+  padding: 10px;
+}
+.height {
+  padding: 10px;
+}
+
+.card1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-inline: auto;
+}
+
+#rightSide {
+  display: flex;
+}
+.calculate {
+  margin-top: 1rem;
+  width: 15%;
+  padding: 2px 2px;
+  border: 1px solid black;
+  border-radius: 100px;
+  background-color: blue;
+  color: white;
+  margin-inline: auto;
+  border: none;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+.card3 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-inline: auto;
+  flex-direction: column;
+  height: 10vh;
+}
+
+label {
+  display: flex;
+  justify-content: space-between;
+}
+
+#outputBMI {
+  border: 1px solid black;
+  width: 100%;
+  padding: 10px;
+  height: 100%;
+  margin-bottom: 2rem;
+}
